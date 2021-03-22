@@ -1,0 +1,11 @@
+version: "3.0"
+services:
+  back:
+    build: ./slate-documentation/
+    ports:
+      - "4567:4567"
+    restart: on-failure
+
+# docker rm -f $(docker ps -a -q)
+# docker rmi -f $(docker images -q)
+# docker-compose build

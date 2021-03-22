@@ -1,0 +1,25 @@
+
+{
+    "composant": [
+        {
+            "name": "WIDGETNAME",
+            "timer": 5,
+            "fctId": "11"
+        },
+        {
+            "name": "WIDGETNAME2",
+            "timer": 5,
+            "fctId": "21"
+        },
+        {
+            "name": "WIDGETNAME3",
+            "timer": 5,
+            "fctId": "41"
+        },
+        {
+            "name": "WIDGETNAME4",
+            "timer": 5,
+            "fctId": "61"
+        }
+    ]
+}

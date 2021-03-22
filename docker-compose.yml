@@ -1,0 +1,34 @@
+version: '3.7'
+
+services:
+  client_web:
+    build:
+      context: ./frontEndWeb/
+      dockerfile: Dockerfile
+    image: client_web
+    ports:
+      - "8081:8081"
+    depends_on:
+      - server
+      - client_mobile
+    volumes:
+      - apk-data:/usr/src/front/src/data/
+    command: "npm start"
+      # "serve -s build -p 8081"
+  client_mobile:
+    build:
+      context: ./AppMobile/
+      dockerfile: Dockerfile
+    image: client_modile
+    volumes:
+      - apk-data:/app/build/app/outputs/flutter-apk
+  server:
+    build:
+      context: ./application-server/
+      dockerfile: Dockerfile
+    image: server
+    ports:
+      - "8080:8080"
+
+volumes:
+  apk-data:

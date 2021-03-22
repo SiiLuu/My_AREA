@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "489091067628",
+    "project_id": "area-epitech-df4bc",
+    "storage_bucket": "area-epitech-df4bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:489091067628:android:b9fb9a82e73497377dffc9",
+        "android_client_info": {
+          "package_name": "com.example.AppMobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "489091067628-cj7fgenutseeeehge44f0h14p9d9c6al.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.AppMobile",
+            "certificate_hash": "fb324380089e2ad1cee54809e4500c3be2d8f0db"
+          }
+        },
+        {
+          "client_id": "489091067628-d98j19qb726m92m5edpucvb4r80li2r7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCW0HbepimowhUBZDsX587Bq36aD-Fkmk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "489091067628-d98j19qb726m92m5edpucvb4r80li2r7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
